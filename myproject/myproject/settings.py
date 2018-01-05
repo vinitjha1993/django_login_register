@@ -25,7 +25,7 @@ SECRET_KEY = 'sty+776sw_-$=m^eu5ol1km3hl71q82dxyyvfa15o=jfu98*(c'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['ec2-34-209-29-86.us-west-2.compute.amazonaws.com']
+ALLOWED_HOSTS = ['production_server public dns']
 
 
 # Application definition
@@ -77,10 +77,10 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'signuplogin',
-        'USER': 'root',
-        'PASSWORD': 'password',
-        'HOST': 'signuplogin.cmgtmjfill7k.us-west-2.rds.amazonaws.com',
+        'NAME': 'dbname',
+        'USER': 'xxxx',
+        'PASSWORD': 'xxxx',
+        'HOST': 'rds endpoint',
         'PORT': '3306',
     }
 }
