@@ -77,9 +77,9 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'django_database3',
+        'NAME': 'signuplogin',
         'USER': 'root',
-        'PASSWORD': 'root',
+        'PASSWORD': 'password',
         'HOST': 'signuplogin.cmgtmjfill7k.us-west-2.rds.amazonaws.com',
         'PORT': '3306',
     }
