@@ -25,7 +25,7 @@ SECRET_KEY = 'sty+776sw_-$=m^eu5ol1km3hl71q82dxyyvfa15o=jfu98*(c'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['LoadBalancer-1908946349.us-west-2.elb.amazonaws.com','ip-10-0-1-198.us-west-2.compute.internal']
+ALLOWED_HOSTS = ['elb and private ec2 dns']
 
 
 # Application definition
@@ -77,10 +77,10 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'testingdb',
-        'USER': 'root',
-        'PASSWORD': 'rootroot',
-        'HOST': 'r-v-db.cmgtmjfill7k.us-west-2.rds.amazonaws.com',
+        'NAME': 'db name',
+        'USER': '***',
+        'PASSWORD': '***',
+        'HOST': 'rds endpoint',
         'PORT': '3306',
     }
 }
