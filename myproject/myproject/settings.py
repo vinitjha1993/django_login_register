@@ -78,9 +78,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'signup_login',
-        'USER': 'root',
-        'PASSWORD': 'password',
-        'HOST': 'signuplogin.cmgtmjfill7k.us-west-2.rds.amazonaws.com',
+        'USER': 'xxxx',
+        'PASSWORD': 'xxxxx',
+        'HOST': 'rds end point',
         'PORT': '3306',
     }
 }
